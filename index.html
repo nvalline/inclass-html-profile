@@ -5,73 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity 4 - HTMLGit</title>
 
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      header {
-        background: #2e2e2e;
-        color: #ffffff;
-        width: 80%;
-        height: 80px;
-        margin: 100px auto 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      div {
-        margin: 0 auto;
-        width: 80%;
-        background-color: #dfddc4;
-        padding: 30px;
-        box-sizing: border-box;
-      }
-
-      .bio {
-        width: 66.66%;
-        display: inline;
-        float: left;
-      }
-
-      .bio img {
-        float: left;
-        padding-right: 20px;
-      }
-
-      .contact {
-        float: right;
-        width: 30%;
-      }
-
-      .clearfix {
-        overflow: auto;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <h1>Student Bio</h1>
     </header>
-    <div class="clearfix">
-      <section class="bio">
+    <div class="container clearfix">
+      <section class="bio" id="main-bio">
         <h2>Nate Valline</h2>
         <img
           src="./img/66280896_416911392243350_4341141419952439296_n.jpeg"
           alt="Profile Picture"
-          width="200px"
-          height="200px"
+          id="bio-image"
         />
         <p>
           I currently live in Midway, UT and I am an avid recreationalist. I
-          grew up ski racing and was a member of the Univeristy of Nevada ski
-          team. I also am passionate about bicycling and travel.
+          grew up ski racing and was a member of the
+          <a href="#">Univeristy of Nevada</a> ski team. I also am passionate
+          about bicycling and travel.
         </p>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact-info">
         <h2>Contact Info</h2>
         <ul>
           <li>

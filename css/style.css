@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #efeee7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+  line-height: 150%;
+}
+
+header {
+  background-color: #333333;
+}
+
+h1 {
+  color: #eee;
+  font-size: 28px;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#main-bio {
+  width: 70%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+a {
+  color: #d21034;
+}
+
+/* My code before referencing the Activity 6 README file */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #2e2e2e;
+  color: #ffffff;
+  width: 80%;
+  height: 80px;
+  margin: 100px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #dfddc4;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.bio {
+  width: 66.66%;
+  display: inline;
+  float: left;
+}
+
+.bio img {
+  float: left;
+  padding-right: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  float: right;
+  width: 30%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+a {
+  color: #d21034;
+} */
